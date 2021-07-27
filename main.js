@@ -122,12 +122,12 @@ const handleFormSubmit = (event) => {
   // TODO: Update the Id's in thie object
   const newPie = {
     name: document.querySelector("#name").value,
-    ingredients: document.querySelector("#name").value,
-    bakeTemp: document.querySelector("#name").value,
-    drinkPairing: document.querySelector("#name").value,
-    imageUrl: document.querySelector("#name").value,
-    instructor: document.querySelector("#name").value,
-    iceCream: document.querySelector("#name").value
+    ingredients: document.querySelector("#ingredients").value,
+    bakeTemp: document.querySelector("#bakeTemp").value,
+    drinkPairing: document.querySelector("#drinkPairing").value,
+    imageUrl: document.querySelector("#imageUrl").value,
+    instructor: document.querySelector("#instructor").value,
+    iceCream: document.querySelector("#iceCream").value
   };
 
   // TODO: Add obj in newPie to the pies Array!
